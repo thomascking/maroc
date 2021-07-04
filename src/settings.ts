@@ -1,9 +1,11 @@
+import { App } from './app';
+
 export interface Settings {
-  allowedHosts: string[];
-  database: Database;
-  debug: boolean;
-  apps: string[];
-  middleware: string[];
+  // allowedHosts: string[];
+  // database: Database;
+  // debug: boolean;
+  apps?: App[];
+  // middleware: string[];
 }
 
 export interface Database {
