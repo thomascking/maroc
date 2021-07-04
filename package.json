@@ -2,9 +2,11 @@
   "name": "maroc",
   "version": "0.0.1",
   "description": "Robust framework for building apis",
-  "main": "index.js",
+  "main": "src/main.ts",
   "scripts": {
     "build": "tsc",
+    "ts-node": "ts-node",
+    "dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -20,8 +22,10 @@
   "author": "Thomas King",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^16.0.0",
     "nodemon": "^2.0.7",
     "ts-node": "^10.0.0",
+    "tslib": "^2.3.0",
     "typescript": "^4.3.4"
   }
 }
